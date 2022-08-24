@@ -11,7 +11,11 @@ body{
 $color_primario : rgb(255, 255, 255) ; 
 $color_secundario : rgb(61, 96, 139) ; 
 
-//  haeder
+//  header
+header {
+    
+    
+}
 .container-contac {
     display: flex;
     background-color:$color_secundario ;
@@ -59,7 +63,11 @@ header nav {
         }     
     }
 }
+// carrucel
+.hero {
+    margin-bottom: 30px;
 
+}
 .hero h2 {
     background-color: $color_secundario;
     color: $color_primario;
@@ -72,4 +80,30 @@ height: 110vh;
 }
 footer {
     background-color: black;
+}
+// seccion limpieza
+.limpieza {
+    padding-top: 20px;
+
+
+    .tarjeta {
+        background-color: $color_primario;
+        margin-top: 20px;
+        display: flex;
+        h4 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 15px;
+        }
+        img {
+            width: 45%;
+        margin-right: 30px;        
+        }
+    }
+    h1 {
+    background-color:$color_secundario ;
+    color: $color_primario ;
+text-align: center;
+padding: 25px;}
 }

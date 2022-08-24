@@ -48,6 +48,9 @@ header nav {
       margin: 10px;
       color: #3d608b; }
 
+.hero {
+  margin-bottom: 30px; }
+
 .hero h2 {
   background-color: #3d608b;
   color: white;
@@ -59,3 +62,22 @@ header nav {
 
 footer {
   background-color: black; }
+
+.limpieza {
+  padding-top: 20px; }
+  .limpieza .tarjeta {
+    background-color: white;
+    margin-top: 20px;
+    display: flex; }
+    .limpieza .tarjeta h4 {
+      font-size: 18px; }
+    .limpieza .tarjeta p {
+      font-size: 15px; }
+    .limpieza .tarjeta img {
+      width: 45%;
+      margin-right: 30px; }
+  .limpieza h1 {
+    background-color: #3d608b;
+    color: white;
+    text-align: center;
+    padding: 25px; }
