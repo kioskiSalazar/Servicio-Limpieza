@@ -73,6 +73,9 @@ main h3 {
 main h4 {
   padding-left: 15px; }
 
+main section {
+  margin-top: 50px; }
+
 .limpieza .tarjeta {
   background-color: white;
   margin-top: 20px;
