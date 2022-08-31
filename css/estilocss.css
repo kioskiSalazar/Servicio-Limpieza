@@ -53,6 +53,26 @@ header {
       color: #3d608b;
       padding-right: 25px; }
 
+main h2 {
+  background-color: #3d608b;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 55px; }
+
+main p {
+  padding-left: 15px;
+  font-size: 18px;
+  padding-right: 15px; }
+
+main h3 {
+  background-color: #3d608b;
+  color: white;
+  padding: 15px; }
+
+main h4 {
+  padding-left: 15px; }
+
 .limpieza .tarjeta {
   background-color: white;
   margin-top: 20px;
@@ -70,23 +90,3 @@ header {
   color: white;
   text-align: center;
   padding: 25px; }
-
-.conocenos div h2 {
-  background-color: #3d608b;
-  color: white;
-  text-align: center;
-  margin-top: 15px;
-  font-size: 55px; }
-
-.conocenos div h3 {
-  background-color: #3d608b;
-  color: white;
-  padding: 15px; }
-
-.conocenos div h4 {
-  padding-left: 15px; }
-
-.conocenos div p {
-  padding-left: 15px;
-  font-size: 18px;
-  padding-right: 15px; }
