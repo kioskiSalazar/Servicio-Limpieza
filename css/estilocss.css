@@ -12,7 +12,7 @@ header {
 
 .container-contac {
   display: flex;
-  background-color: #3d608b;
+  background-color: #3c5ca3;
   color: white;
   align-items: center;
   justify-content: flex-end;
@@ -41,7 +41,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 90px;
+  height: 50px;
   background-color: white;
   font-family: sans-serif; }
   .nav ul {
@@ -50,14 +50,14 @@ header {
     .nav ul a {
       text-decoration: none;
       margin: 10px;
-      color: #3d608b;
+      color: #3c5ca3;
       padding-right: 25px; }
 
 main h2 {
-  background-color: #3d608b;
+  background-color: #3c5ca3;
   color: white;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 40px;
   font-size: 55px; }
 
 main p {
@@ -66,15 +66,14 @@ main p {
   padding-right: 15px; }
 
 main h3 {
-  background-color: #3d608b;
-  color: white;
+  color: #3c5ca3;
   padding: 15px; }
 
 main h4 {
   padding-left: 15px; }
 
 main section {
-  margin-top: 50px; }
+  margin-top: 75pxpx; }
 
 .limpieza .tarjeta {
   background-color: white;
@@ -89,7 +88,7 @@ main section {
     margin-right: 30px; }
 
 .limpieza h1 {
-  background-color: #3d608b;
+  background-color: #3c5ca3;
   color: white;
   text-align: center;
   padding: 25px; }
