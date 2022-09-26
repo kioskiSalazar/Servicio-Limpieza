@@ -9,7 +9,8 @@ body{
 }
 
 $color_primario : rgb(255, 255, 255) ; 
-$color_secundario : #3c5ca3 ; 
+$color_secundario : #3c5ca3 ;
+$color_tercero :  #0c9cdc;
 
 //  header
 header{
@@ -75,7 +76,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #0c9cdc;
+    background: $color_tercero;
     transition: .5s;
 }
 .checkbtn{
@@ -127,7 +128,60 @@ main{
   text-align: center;
   padding: 25px;}
   }
+//   fomulario contacto
 
+.contact-form-wrapper {
+    padding: 100px 0;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);
+  }
+  
+  .contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 400px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+    
+  }  
+  button, input, optgroup, select, textarea {
+        background-color: $color_secundario;
+        color: $color_primario;
+        border: $color_primario;
+        border-radius: 5px;
+        width: 25%;
+    }
+  .border-white {
+    width: 95% !important;
+  }
+//   maps
+.map{
+    margin-left: 100px;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);
+}
 // media quory 
 @media (max-width: 952px){
     .enlace{
