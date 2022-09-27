@@ -82,11 +82,11 @@ li a.active, li a:hover {
   display: none; }
 
 main h2 {
-  background-color: #3c5ca3;
+  background-color: #0c9cdc;
   color: white;
   text-align: center;
   margin-top: 40px;
-  font-size: 55px; }
+  font-size: 40px; }
 
 main p {
   padding-left: 15px;
@@ -103,17 +103,42 @@ main h4 {
 main section {
   margin-top: 75pxpx; }
 
+.inicio img {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.inicio h1 {
+  background-color: #3c5ca3;
+  color: white;
+  text-align: center;
+  padding: 25px; }
+
 .limpieza img {
   display: block;
   width: 80%;
   margin-right: auto;
   margin-left: auto; }
 
-.limpieza h1 {
-  background-color: #3c5ca3;
-  color: white;
-  text-align: center;
-  padding: 25px; }
+.seguridad img {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.img-vmv img {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px; }
+
+.img-valores img {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
 
 .contact-form-wrapper {
   padding: 100px 0;

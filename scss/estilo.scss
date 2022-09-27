@@ -94,11 +94,11 @@ li a.active, li a:hover{
 // inicio main
 main{
     h2 {
-        background-color: $color_secundario;
+        background-color: $color_tercero;
         color: $color_primario;
         text-align: center;
         margin-top: 40px;
-        font-size: 55px;}
+        font-size: 40px;}
         p{padding-left: 15px;
             font-size: 18px;
         padding-right: 15px;}
@@ -114,8 +114,9 @@ main{
             margin-top: 75pxpx;
         }
         }
-// seccion limpieza
-.limpieza {
+        
+// seccion inicio
+.inicio {
     img {
       display: block;
               width: 80%;
@@ -128,6 +129,42 @@ main{
   text-align: center;
   padding: 25px;}
   }
+//   seccion  limpieza
+.limpieza{
+    img {
+        display: block;
+                width: 80%;
+            margin-right: auto;
+            margin-left: auto;        
+            }
+}
+// seccion seguridad
+.seguridad{
+    img {
+        display: block;
+                width: 80%;
+            margin-right: auto;
+            margin-left: auto;        
+            }
+}
+// seccion quien somos
+.img-vmv {
+    img {
+        display: block;
+                width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 25px;        
+            }
+}
+.img-valores{
+    img {
+        display: block;
+                width: 80%;
+            margin-right: auto;
+            margin-left: auto;        
+            }
+}
 //   fomulario contacto
 
 .contact-form-wrapper {
