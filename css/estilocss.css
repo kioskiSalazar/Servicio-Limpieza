@@ -125,7 +125,12 @@ main section {
   display: block;
   width: 80%;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-bottom: 25px; }
+
+.seguridad h2 {
+  background-color: #3c5ca3;
+  padding-bottom: 5px; }
 
 .img-vmv img {
   display: block;
