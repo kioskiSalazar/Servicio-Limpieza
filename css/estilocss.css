@@ -7,7 +7,7 @@ body {
   font-family: sans-serif; }
 
 header {
-  position: sticky;
+  position: sticky !important;
   top: 0px; }
 
 .container-contac {
@@ -37,6 +37,7 @@ header {
     margin-right: 10%; }
 
 nav {
+  position: sticky;
   background-color: #ffffff;
   background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);
   height: 120px;
@@ -65,7 +66,8 @@ nav ul li a {
   border-radius: 3px;
   text-transform: uppercase; }
 
-li a.active, li a:hover {
+li a.active,
+li a:hover {
   background: #0c9cdc;
   transition: .5s; }
 
@@ -146,7 +148,7 @@ main section {
   margin-left: auto; }
 
 .contact-form-wrapper {
-  padding: 100px 0;
+  padding: 100px;
   background-color: #ffffff;
   background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%); }
 
@@ -175,7 +177,11 @@ main section {
   font-weight: 500;
   opacity: 1; }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   background-color: #3c5ca3;
   color: white;
   border: white;
@@ -186,9 +192,19 @@ button, input, optgroup, select, textarea {
   width: 95% !important; }
 
 .map {
-  margin-left: 100px;
-  background-color: #ffffff;
+  display: block;
+  padding-left: 100px;
+  padding-top: 10px;
   background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%); }
+
+footer {
+  background-color: #3c5ca3;
+  color: white;
+  height: 50px; }
+  footer p {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px; }
 
 @media (max-width: 952px) {
   .enlace {
@@ -202,8 +218,8 @@ button, input, optgroup, select, textarea {
   ul {
     position: fixed;
     width: 100%;
-    height: 100vh;
-    background: #2c3e50;
+    height: 50vh;
+    background: #0c9cdc;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -214,8 +230,9 @@ button, input, optgroup, select, textarea {
     line-height: 30px; }
   nav ul li a {
     font-size: 20px; }
-  li a:hover, li a.active {
+  li a:hover,
+  li a.active {
     background: none;
-    color: red; }
+    color: white; }
   #check:checked ~ ul {
     left: 0; } }

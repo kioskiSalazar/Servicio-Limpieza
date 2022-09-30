@@ -1,35 +1,38 @@
-
 * {
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
 
-$color_primario : rgb(255, 255, 255) ; 
-$color_secundario : #3c5ca3 ;
-$color_tercero :  #0c9cdc;
+$color_primario : rgb(255, 255, 255);
+$color_secundario : #3c5ca3;
+$color_tercero : #0c9cdc;
 
 //  header
-header{
-    position: sticky;
+header {
+    position: sticky !important;
     top: 0px;
 }
+
 .container-contac {
     display: flex;
-    background-color:$color_secundario ;
+    background-color: $color_secundario ;
     color: $color_primario;
     align-items: center;
     justify-content: flex-end;
     height: 40px;
     font-size: 15px;
+
     .phone {
         width: 1.5%;
         font-size: 15px;
-        }
-       img {
+    }
+
+    img {
         width: 2.5%;
         display: flex;
         justify-content: end;
@@ -37,49 +40,61 @@ header{
         border-radius: 10px;
         margin-left: 25px;
         margin-right: 5px;
-       }
-       a {text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
         color: $color_primario ;
         display: flex;
         justify-content: end;
         margin-right: 10%;
-       }    
- }
+    }
+}
+
 //  nav
-nav{
+nav {
+    position: sticky;
     background-color: #ffffff;
-    background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);    
+    background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);
     height: 120px;
     width: 100%;
 }
-.enlace{
+
+.enlace {
     position: absolute;
 }
-.logo{
+
+.logo {
     height: 110px;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-right: 20px;
     margin-top: 20px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
-nav ul li a{
+
+nav ul li a {
     color: #fff;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
-li a.active, li a:hover{
+
+li a.active,
+li a:hover {
     background: $color_tercero;
     transition: .5s;
 }
-.checkbtn{
+
+.checkbtn {
     font-size: 30px;
     color: #fff;
     float: right;
@@ -88,180 +103,223 @@ li a.active, li a:hover{
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
+
 // inicio main
-main{
+main {
     h2 {
         background-color: $color_tercero;
         color: $color_primario;
         text-align: center;
         margin-top: 40px;
-        font-size: 40px;}
-        p{padding-left: 15px;
-            font-size: 18px;
-        padding-right: 15px;}
-        h3{
-            // background-color: $color_secundario;
-            color: $color_secundario;
-            padding: 15px;
-        }
-        h4 {
-            padding-left: 15px;
-        }
-        section{
-            margin-top: 75pxpx;
-        }
-        }
-        
+        font-size: 40px;
+    }
+
+    p {
+        padding-left: 15px;
+        font-size: 18px;
+        padding-right: 15px;
+    }
+
+    h3 {
+        // background-color: $color_secundario;
+        color: $color_secundario;
+        padding: 15px;
+    }
+
+    h4 {
+        padding-left: 15px;
+    }
+
+    section {
+        margin-top: 75pxpx;
+    }
+}
+
 // seccion inicio
 .inicio {
     img {
-      display: block;
-              width: 80%;
-          margin-right: auto;
-          margin-left: auto;        
-          }
+        display: block;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     h1 {
-      background-color:$color_secundario ;
-      color: $color_primario ;
-  text-align: center;
-  padding: 25px;}
-  }
+        background-color: $color_secundario ;
+        color: $color_primario ;
+        text-align: center;
+        padding: 25px;
+    }
+}
+
 //   seccion  limpieza
-.limpieza{
+.limpieza {
     img {
         display: block;
-                width: 80%;
-            margin-right: auto;
-            margin-left: auto;        
-            }
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
+
 // seccion seguridad
-.seguridad{
+.seguridad {
     img {
         display: block;
-                width: 80%;
-            margin-right: auto;
-            margin-left: auto;        
-        margin-bottom: 25px;    
-        }
-            h2{
-                background-color: $color_secundario;
-            padding-bottom: 5px;
-            }
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        background-color: $color_secundario;
+        padding-bottom: 5px;
+    }
 }
+
 // seccion quien somos
 .img-vmv {
     img {
         display: block;
-                width: 80%;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 25px;        
-            }
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+    }
 }
-.img-valores{
+
+.img-valores {
     img {
         display: block;
-                width: 80%;
-            margin-right: auto;
-            margin-left: auto;        
-            }
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
+
 //   fomulario contacto
 
 .contact-form-wrapper {
-    padding: 100px 0;
+    padding: 100px ;
     background-color: #ffffff;
     background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);
-  }
-  
-  .contact-form {
+}
+
+.contact-form {
     padding: 30px 40px;
     background-color: #ffffff;
     border-radius: 12px;
     max-width: 400px;
-  }
-  
-  .contact-form textarea {
+}
+
+.contact-form textarea {
     resize: none;
-  }
-  
-  .contact-form .form-input,
-  .form-text-area {
+}
+
+.contact-form .form-input,
+.form-text-area {
     background-color: #f0f4f5;
     height: 50px;
     padding-left: 16px;
-  }
-  
-  .contact-form .form-text-area {
+}
+
+.contact-form .form-text-area {
     background-color: #f0f4f5;
     height: auto;
     padding-left: 16px;
-  }
-  
-  .contact-form .form-control::placeholder {
+}
+
+.contact-form .form-control::placeholder {
     color: #aeb4b9;
     font-weight: 500;
     opacity: 1;
-    
-  }  
-  button, input, optgroup, select, textarea {
-        background-color: $color_secundario;
-        color: $color_primario;
-        border: $color_primario;
-        border-radius: 5px;
-        width: 25%;
-    }
-  .border-white {
+
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    background-color: $color_secundario;
+    color: $color_primario;
+    border: $color_primario;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.border-white {
     width: 95% !important;
-  }
+}
+
 //   maps
-.map{
-    margin-left: 100px;
-    background-color: #ffffff;
+.map {
+    display: block;
+    padding-left: 100px;
+   padding-top: 10px;
     background-image: linear-gradient(90deg, #ffffff 0%, #84ccea 100%);
 }
+footer{
+    background-color: $color_secundario;
+    color: $color_primario;
+    height: 50px;
+    p{
+     padding-top: 20px; 
+     margin-left: 20px; 
+     margin-bottom: 25px;
+    }
+}
+
 // media quory 
-@media (max-width: 952px){
-    .enlace{
+@media (max-width: 952px) {
+    .enlace {
         padding-left: 20px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 16px;
     }
 }
 
 
-@media (max-width: 858px){
-    .checkbtn{
+@media (max-width: 858px) {
+    .checkbtn {
         display: block;
     }
-    ul{
+
+    ul {
         position: fixed;
         width: 100%;
-        height: 100vh;
-        background: #2c3e50;
+        height: 50vh;
+        background:$color_tercero;
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 20px;
     }
-    li a:hover, li a.active{
+
+    li a:hover,
+    li a.active {
         background: none;
-        color: red;
+        color: $color_primario;
     }
-    #check:checked ~ ul{
-        left:0;
+
+    #check:checked~ul {
+        left: 0;
     }
 }
