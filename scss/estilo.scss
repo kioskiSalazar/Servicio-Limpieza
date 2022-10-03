@@ -195,7 +195,6 @@ main {
         margin-top: 25px;
     }
 }
-
 .img-valores {
     img {
         display: block;
@@ -204,7 +203,11 @@ main {
         margin-left: auto;
     }
 }
-
+.compromiso{
+    h4{
+        color: $color_secundario;
+    }
+}
 //   fomulario contacto
 
 .contact-form-wrapper {

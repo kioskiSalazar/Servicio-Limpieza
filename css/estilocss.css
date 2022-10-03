@@ -150,6 +150,9 @@ main section {
   margin-right: auto;
   margin-left: auto; }
 
+.compromiso h4 {
+  color: #3c5ca3; }
+
 .contact-form-wrapper {
   padding: 100px;
   background-color: #ffffff;
